@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "arvore.h"   // biblioteca única
+#include "arvore.h"   
 
 int main() {
     Arv *arvore = cria_arvore();
@@ -55,7 +55,7 @@ int main() {
 
         case 3: {
             int opc;
-            printf("\n1 - Buscar por matrícula\n2 - Buscar por nome\nEscolha: ");
+            printf("\n1 - Buscar por matrï¿½cula\n2 - Buscar por nome\nEscolha: ");
             scanf("%d", &opc);
 
             int cab = 0, qtd = 0;
@@ -109,7 +109,7 @@ int main() {
 
             printf("\nTotal de vendas: %d\n", total);
             printf("Faturamento: R$ %.2f\n", fat);
-            printf("Ticket médio: R$ %.2f\n", media);
+            printf("Ticket mï¿½dio: R$ %.2f\n", media);
 
             system("pause");
             system("cls");
